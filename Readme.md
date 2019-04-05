@@ -3,7 +3,7 @@
 
 * **[ItemsSourceHelper.cs](./CS/LayoutControlItemsSource/ItemsSourceHelper.cs) (VB: [ItemsSourceHelper.vb](./VB/LayoutControlItemsSource/ItemsSourceHelper.vb))**
 * [MainWindow.xaml](./CS/LayoutControlItemsSource/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/LayoutControlItemsSource/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/LayoutControlItemsSource/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/LayoutControlItemsSource/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/LayoutControlItemsSource/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/LayoutControlItemsSource/MainWindow.xaml.vb))
 * [SampleSource.cs](./CS/LayoutControlItemsSource/SampleSource.cs) (VB: [SampleSource.vb](./VB/LayoutControlItemsSource/SampleSource.vb))
 <!-- default file list end -->
 # How to implement the ItemsSource property for the LayoutGroup/LayoutControl control
