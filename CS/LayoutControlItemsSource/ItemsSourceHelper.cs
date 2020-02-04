@@ -39,7 +39,7 @@ namespace LayoutControlItemsSource {
 
         protected virtual void OnItemsSourceChanged(DependencyPropertyChangedEventArgs e) {
             if (e.OldValue is INotifyCollectionChanged)
-                ((INotifyCollectionChanged)e.NewValue).CollectionChanged -= OnItemsSourceCollectionChanged;
+                ((INotifyCollectionChanged)e.OldValue).CollectionChanged -= OnItemsSourceCollectionChanged;
             if (e.NewValue is INotifyCollectionChanged)
                 ((INotifyCollectionChanged)e.NewValue).CollectionChanged += OnItemsSourceCollectionChanged;
             if (Group != null)
