@@ -58,7 +58,7 @@ Namespace LayoutControlItemsSource
 
         Protected Overridable Sub OnItemsSourceChanged(ByVal e As DependencyPropertyChangedEventArgs)
             If TypeOf e.OldValue Is INotifyCollectionChanged Then
-                RemoveHandler DirectCast(e.NewValue, INotifyCollectionChanged).CollectionChanged, AddressOf OnItemsSourceCollectionChanged
+                RemoveHandler DirectCast(e.OldValue, INotifyCollectionChanged).CollectionChanged, AddressOf OnItemsSourceCollectionChanged
             End If
             If TypeOf e.NewValue Is INotifyCollectionChanged Then
                 AddHandler DirectCast(e.NewValue, INotifyCollectionChanged).CollectionChanged, AddressOf OnItemsSourceCollectionChanged
