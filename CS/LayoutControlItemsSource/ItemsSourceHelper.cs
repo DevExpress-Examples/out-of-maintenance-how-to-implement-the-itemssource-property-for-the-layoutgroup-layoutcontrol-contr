@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using DevExpress.Xpf.LayoutControl;
-using DevExpress.Xpf.Mvvm.UI.Interactivity;
+using DevExpress.Mvvm.UI.Interactivity;
 
 namespace LayoutControlItemsSource {
     public class ItemsSourceHelper : Behavior<LayoutGroup> {

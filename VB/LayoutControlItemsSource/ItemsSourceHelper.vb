@@ -5,7 +5,7 @@ Imports System.Windows
 Imports System.Windows.Controls
 Imports System.Windows.Data
 Imports DevExpress.Xpf.LayoutControl
-Imports DevExpress.Xpf.Mvvm.UI.Interactivity
+Imports DevExpress.Mvvm.UI.Interactivity
 
 Namespace LayoutControlItemsSource
     Public Class ItemsSourceHelper
